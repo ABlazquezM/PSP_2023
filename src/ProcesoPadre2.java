@@ -1,15 +1,16 @@
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class ProcesoPadre {
+public class ProcesoPadre2 {
 
 	public static void main(String[] args) {
 		// crear proceso hijo
 		try {
-		Process hijo = new ProcessBuilder("java","-jar","C:\\Prueba\\MiProcesoHijo.jar").start();
+		Process hijo = new ProcessBuilder("java","-jar","C:\\Prueba\\Palidromos.jar").start();
 		//lectura por teclado de la infroamcion a enviar a proceso hijo
 		Scanner in = new Scanner(System.in);
 		

@@ -6,7 +6,7 @@ public class ProcesoHijo {
 		String cadena= lector.nextLine();
 		
 		while(cadena!= null) {
-			System.out.println("Proceso hijo: "+ cadena.toUpperCase());
+			System.out.println("Proceso hijo2: "+ cadena.toUpperCase());
 			cadena=lector.nextLine();
 		}
 	}
